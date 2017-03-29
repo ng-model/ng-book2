@@ -7,5 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Okay, proceed .!';
-  manoj = 'hero';
+  names = [];
+
+  constructor(){
+    this.names = ['Tuan','Mark','Kevin'];
+  }
 }
