@@ -1,3 +1,10 @@
+
+# Follow the commands in the below url to setUp in your PC/System.
+
+    https://angular.io/docs/ts/latest/cli-quickstart.html
+
+
+
 # MyApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
