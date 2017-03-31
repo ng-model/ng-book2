@@ -25,7 +25,12 @@ export class AppComponent {
     this.names = ['Tuan','Mark','Kevin'];
   //  this.myDate = new Date();
   }
+  addArticle(title: HTMLInputElement, link:HTMLInputElement): boolean{ 
+    console.log('title: ${title.value} and link: ${link.value}'); 
+    return false; 
+  } 
 }
+
 // export class AppComponent1 {
 //  // title = 'Okay, proceed .!';
 //  // names = [];

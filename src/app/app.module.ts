@@ -22,10 +22,7 @@ import { AppComponent } from './app.component';
 })
 
 export class AppModule { 
-  addArticle(title: HTMLInputElement, link:HTMLInputElement): boolean{ 
-    console.log('title: ${title.value} and link: ${link.value}'); 
-    return false; 
-  } 
+  
  } 
  
 platformBrowserDynamic().bootstrapModule(AppModule); 
