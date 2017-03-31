@@ -1,5 +1,5 @@
 import { NgModule,Component } from '@angular/core';
-// import { MomentModule } from 'angular2-moment';
+import { MomentModule } from 'angular2-moment';
 import { BrowserModule } from '@angular/platform-browser';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
@@ -18,12 +18,12 @@ declare var moment: any;
 // })
 export class AppComponent {
   title = 'Okay, proceed .!';
-  names = [];
- // myDate = Date;
+  // names = [];
+  myDate : Date;
 
   constructor(){
-    this.names = ['Tuan','Mark','Kevin'];
-  //  this.myDate = new Date();
+    // this.names = ['Tuan','Mark','Kevin'];
+    this.myDate = new Date();
   }
   addArticle(title: HTMLInputElement, link:HTMLInputElement): boolean{ 
     console.log('title: ${title.value} and link: ${link.value}'); 
