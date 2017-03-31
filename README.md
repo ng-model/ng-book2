@@ -14,7 +14,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 
-    ![alt tag](https://github.com/madurimanoj/ng-book2/blob/child2/src/assets/angular2.PNG)
+    ![alt tag](https://cloud.githubusercontent.com/assets/11791070/24567910/a82c3588-162d-11e7-9e56-67975028740a.PNG)
 
 
 ## Code scaffolding
