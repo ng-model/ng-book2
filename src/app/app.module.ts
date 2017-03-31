@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic'; 
 import { NgModule } from '@angular/core';
+// import { MomentModule } from 'angular2-moment';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
@@ -13,7 +14,8 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    // MomentModule
   ],
   providers: [],
   bootstrap: [AppComponent]
@@ -21,7 +23,7 @@ import { AppComponent } from './app.component';
 
 export class AppModule { 
   addArticle(title: HTMLInputElement, link:HTMLInputElement): boolean{ 
-    console.log('${title.value}', '${link.value}'); 
+    console.log('title: ${title.value} and link: ${link.value}'); 
     return false; 
   } 
  } 

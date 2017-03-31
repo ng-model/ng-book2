@@ -1,9 +1,10 @@
-<h1>
-  {{title}} {{names}}
+<h1> Hello-World
+  <!--{{title}} {{names}}-->
 </h1>
-<ul>
+<!--<ul>
   <li *ngFor="let name of names">Hello {{name}}</li>
-</ul>
+</ul>-->
+<!--Last updated: <b>{{myDate | amTimeAgo}}</b>, <b>{{myDate | amCalendar}}</b>, <b>{{myDate | amDateFormat:'LL'}}</b>-->
 <form class="ui large form segment">
   <h3 class="ui header">Add a Link</h3>
   <div class="field">
@@ -14,5 +15,8 @@
     <label for="link">Link:</label>
     <input name="link" #newlink>
   </div>
-  <button (click) = "addArticle(newtitle, newlink)" class="ui positive right floated button">Submit link</button> 
+  <div>
+    <button (click) ="addArticle(newtitle, newlink)" class="ui positive button">Submit link</button>
+  </div>
+   
 </form>
