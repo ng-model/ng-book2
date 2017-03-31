@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { platformBrowserDynamic } from '@angular/platform-browser-dynamic'; 
-import { NgModule, Component, OnInit } from '@angular/core';
-import { MomentService } from './moment.service';
+import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import { NgModule, OnInit } from '@angular/core';
+import {MomentModule} from "angular2-moment";
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
@@ -15,21 +15,16 @@ import { AppComponent } from './app.component';
     BrowserModule,
     FormsModule,
     HttpModule,
- 
+    MomentModule
+
   ],
-  providers: [MomentService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 
 export class AppModule implements OnInit {
- // title='';
 
-  momentMsg = this.ms.moment("20111031", "YYYYMMDD").toString();
-
-  constructor(private ms: MomentService){
-  }
-  
   ngOnInit(){ }
 }
 
-platformBrowserDynamic().bootstrapModule(AppModule); 
+platformBrowserDynamic().bootstrapModule(AppModule);

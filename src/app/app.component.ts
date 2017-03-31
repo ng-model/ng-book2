@@ -1,9 +1,5 @@
-import { NgModule,Component } from '@angular/core';
-import { MomentService } from './moment.service';
-import { BrowserModule } from '@angular/platform-browser';
-import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import { Component } from '@angular/core';
 
-declare var moment: any;
 
 @Component({
   selector: 'app-root',
@@ -12,30 +8,18 @@ declare var moment: any;
   styleUrls: ['./app.component.css']
 })
 
-// @Component({
-//   selector:'new-selector',
-//   template:'<h3>New Hero</h3><form> <div></div></form>'
-// })
 export class AppComponent {
   title = 'Okay, proceed .!';
   // names = [];
- myDate : Date;
+  myDate : Date;
 
   constructor(){
     // this.names = ['Tuan','Mark','Kevin'];
-  this.myDate = new Date();
+    this.myDate = new Date();
   }
-  addArticle(title: HTMLInputElement, link:HTMLInputElement): boolean{ 
-    console.log('title: ${title.value} and link: ${link.value}'); 
-    return false; 
-  } 
+  addArticle(title: HTMLInputElement, link:HTMLInputElement): boolean{
+    console.log('title: ${title.value} and link: ${link.value}');
+    return false;
+  }
 }
 
-// export class AppComponent1 {
-//  // title = 'Okay, proceed .!';
-//  // names = [];
-
-//   constructor(){
-//  //   this.names = ['Tuan','Mark','Kevin'];
-//   }
-// }
