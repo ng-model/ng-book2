@@ -1,3 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
 
-@import url(https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css)
+/*@import url(https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css);*/
+
+@import "../semantic/dist/semantic.min.css";
+
+@import '../semantic/dist/components/accordion.min.css'; 
+@import '../semantic/dist/components/ad.min.css';
+@import '../semantic/dist/components/breadcrumb.min.css';
+@import '../semantic/dist/components/button.min.css';
+@import '../semantic/dist/components/card.min.css';
+@import '../semantic/dist/components/checkbox.min.css';
+@import '../semantic/dist/components/comment.min.css';
+@import '../semantic/dist/components/container.min.css';
+@import '../semantic/dist/components/dimmer.min.css';
+@import '../semantic/dist/components/divider.min.css';
+@import '../semantic/dist/components/dropdown.min.css';
+@import '../semantic/dist/components/embed.min.css';
+@import '../semantic/dist/components/feed.min.css';
+@import '../semantic/dist/components/flag.min.css';
+@import '../semantic/dist/components/form.min.css';
+@import '../semantic/dist/components/grid.min.css';
+@import '../semantic/dist/components/header.min.css';
+@import '../semantic/dist/components/icon.min.css';
+@import '../semantic/dist/components/image.min.css';
+@import '../semantic/dist/components/label.min.css';
+@import '../semantic/dist/components/list.min.css';
+@import '../semantic/dist/components/loader.min.css';
+@import '../semantic/dist/components/menu.min.css';
+@import '../semantic/dist/components/message.min.css';
+@import '../semantic/dist/components/modal.min.css';
+@import '../semantic/dist/components/nag.min.css';
+@import '../semantic/dist/components/sticky.min.css';
+@import '../semantic/dist/components/tab.min.css';
+@import '../semantic/dist/components/table.min.css';
+@import '../semantic/dist/components/transition.min.css';
+@import '../semantic/dist/components/sidebar.min.css';
+
+
+
+
+body{
+    margin: 5%;
+}
