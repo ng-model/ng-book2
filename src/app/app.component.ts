@@ -17,9 +17,9 @@ export class AppComponent {
     // this.names = ['Tuan','Mark','Kevin'];
     this.myDate = new Date();
   }
-  addArticle(title: HTMLInputElement, link:HTMLInputElement): boolean{
-    console.log('title: ${title.value} and link: ${link.value}');
-    return false;
+  addArticle(title:string, link:string){
+    console.log('title'+title + 'link'+link);
+
   }
 }
 
