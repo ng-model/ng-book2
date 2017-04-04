@@ -4,7 +4,6 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
- // template:'<h3>New Hero</h3><form> <div></div></form>',
   styleUrls: ['./app.component.css']
 })
 
@@ -18,7 +17,7 @@ export class AppComponent {
     this.myDate = new Date();
   }
   addArticle(title:string, link:string){
-    console.log('title'+title + 'link'+link);
+    console.log('title is' + title+ 'link is'+link);
 
   }
 }
