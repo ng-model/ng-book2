@@ -7,11 +7,14 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { NewComponent } from './new.component';
+import { ArticleComponent } from './article/article.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NewComponent
+    NewComponent,
+    ArticleComponent
+    
   ],
   imports: [
     BrowserModule,

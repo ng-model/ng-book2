@@ -13,6 +13,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+
+    ![alt tag](https://cloud.githubusercontent.com/assets/11791070/24567910/a82c3588-162d-11e7-9e56-67975028740a.PNG)
+
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
