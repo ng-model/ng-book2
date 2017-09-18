@@ -8,13 +8,14 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { NewComponent } from './new.component';
 import { ArticleComponent } from './article/article.component';
+import { Component1Component } from './component1/component1.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NewComponent,
-    ArticleComponent
-    
+    ArticleComponent,
+    Component1Component
   ],
   imports: [
     BrowserModule,
