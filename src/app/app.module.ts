@@ -20,9 +20,9 @@ import { Component1Component } from './component1/component1.component';
   ],
   imports: [
     BrowserModule,
+    RouterModule,
     FormsModule,
     HttpModule,
-    RouterModule,
     MomentModule
 
   ],
