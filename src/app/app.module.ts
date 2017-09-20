@@ -1,3 +1,4 @@
+import { Routes } from './app.routing';
 import { BrowserModule } from '@angular/platform-browser';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { NgModule, OnInit } from '@angular/core';
@@ -19,8 +20,8 @@ import { Component1Component } from './component1/component1.component';
     Component1Component
   ],
   imports: [
+    RouterModule.forRoot(Routes),
     BrowserModule,
-    RouterModule,
     FormsModule,
     HttpModule,
     MomentModule
@@ -34,5 +35,7 @@ export class AppModule implements OnInit {
 
   ngOnInit(){ }
 }
+
+export const routing = RouterModule.forRoot(Routes); 
 
 platformBrowserDynamic().bootstrapModule(AppModule);
