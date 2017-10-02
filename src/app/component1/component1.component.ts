@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-component1',
@@ -7,9 +6,18 @@ import {Router} from "@angular/router";
   styleUrls: ['./component1.component.css']
 })
 export class Component1Component implements OnInit {
+  
+  title = 'Okay, proceed .!';
+  myDate : Date;
 
-  constructor() { }
+  constructor(){
+    // this.names = ['Tuan','Mark','Kevin'];
+    this.myDate = new Date();
+  }
+  addArticle(title:string, link:string){
+    console.log('title is' + title+ 'link is'+link);
 
+  }
   ngOnInit() {
   }
 
