@@ -1,38 +1,40 @@
-<div class="item">
-  <!--Last updated: <b>{{myDate | amTimeAgo}}</b>,<b>{{myDate | amCalendar}}</b>, <b>{{myDate | amDateFormat:'LL'}}</b>-->
-</div>
-<div class="ui secondary  menu">
-  <a class="item" [routerLink]="['/']">
+<div class="ui inverted vertical masthead center aligned segment">
+	<!--Last updated: <b>{{myDate | amTimeAgo}}</b>,<b>{{myDate | amCalendar}}</b>, <b>{{myDate | amDateFormat:'LL'}}</b>-->
+	<div class="ui large secondary inverted pointing menu">
+		<div class="ui container">
+			<a class="item active" [routerLink]="['/']">
     Home
   </a>
-  <a class="item" [routerLink]="['/article']">
+			<a class="item" [routerLink]="['/article']">
     Article
   </a>
-  <a class="item" [routerLink]="['/component']">
+			<a class="item" [routerLink]="['/component']">
     Component
   </a>
-   <a class="item" [routerLink]="['/newComponent']">
+			<a class="item" [routerLink]="['/newComponent']">
     newComponent
   </a>
-  <a class="item"> {{myDate | amCalendar}}</a>
-  <div class="right menu">
-    <div class="item">
-      <div class="ui icon input">
-        <input type="text" placeholder="Search...">
-        <i class="search link icon"></i>
-      </div>
-    </div>
-    <a class="ui item active">
+			<a class="item"> {{myDate | amCalendar}}</a>
+			<div class="right menu">
+				<div class="item">
+					<div class="ui icon input">
+						<input type="text" placeholder="Search...">
+						<i class="search link icon"></i>
+					</div>
+				</div>
+				<a class="ui item">
       Logout
     </a>
-  </div>
+			</div>
+		</div>
+
+	</div>
 </div>
 <div>
-    <router-outlet></router-outlet>
-  </div>
-
+	<router-outlet></router-outlet>
+</div>
 <!--<h1> Hello-World </h1>-->
-  <!--{{title}} {{names}}-->
+<!--{{title}} {{names}}-->
 
 <!--<ul>
   <li *ngFor="let name of names">Hello {{name}}</li>
