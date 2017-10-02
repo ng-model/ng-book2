@@ -588,7 +588,7 @@ exports.i(__webpack_require__("../../node_modules/css-loader/index.js?{\"sourceM
 exports.i(__webpack_require__("../../node_modules/css-loader/index.js?{\"sourceMap\":false,\"importLoaders\":1}!../../node_modules/postcss-loader/index.js?{\"ident\":\"postcss\"}!../../../../../semantic/dist/components/sidebar.min.css"), "");
 
 // module
-exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\r\n\r\n/*@import url(https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css);*/\r\n\r\n\r\n\r\n\r\nbody{\r\n    margin: 5%;\r\n}", ""]);
+exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\r\n\r\n/*@import url(https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css);*/\r\n\r\n\r\n\r\n", ""]);
 
 // exports
 
