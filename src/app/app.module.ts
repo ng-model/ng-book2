@@ -8,7 +8,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { NewComponent } from './new.component';
+import { NewComponent } from './new/new.component';
 import { ArticleComponent } from './article/article.component';
 import { Component1Component } from './component1/component1.component';
 
