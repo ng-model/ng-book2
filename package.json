@@ -4,11 +4,14 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
     "build": "ng build",
-    "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "start": "node server.js",
+    "test": "ng test",
+    "pree2e": "webdriver-manager update",
+    "postinstall": "ng build",
+    "deploy": "git push origin master && git push heroku master"
   },
   "private": true,
   "dependencies": {
@@ -46,5 +49,8 @@
     "ts-node": "~2.0.0",
     "tslint": "~4.5.0",
     "typescript": "~2.2.0"
+  },
+  "engines": {
+    "node": "8.2.1"
   }
 }
