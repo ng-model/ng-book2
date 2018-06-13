@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -8,17 +7,10 @@ import { Component } from '@angular/core';
 })
 
 export class AppComponent {
-  title = 'Okay, proceed .!';
-  // names = [];
-  myDate : Date;
+   myDate: Date;
 
-  constructor(){
-    // this.names = ['Tuan','Mark','Kevin'];
+   constructor() {
     this.myDate = new Date();
-  }
-  addArticle(title:string, link:string){
-    console.log('title is' + title+ 'link is'+link);
-
   }
 }
 
