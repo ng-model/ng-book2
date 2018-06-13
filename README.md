@@ -1,3 +1,10 @@
+
+# Follow the commands in the below url to setUp in your PC/System.
+
+    https://angular.io/docs/ts/latest/cli-quickstart.html
+
+
+
 # MyApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
@@ -5,6 +12,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+
+    ![alt tag](https://cloud.githubusercontent.com/assets/11791070/24567910/a82c3588-162d-11e7-9e56-67975028740a.PNG)
+
 
 ## Code scaffolding
 

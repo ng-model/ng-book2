@@ -5,7 +5,12 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
-  title = 'Okay, proceed .!';
-  manoj = 'hero';
+   myDate: Date;
+
+   constructor() {
+    this.myDate = new Date();
+  }
 }
+
